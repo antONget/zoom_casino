@@ -24,7 +24,7 @@ async def process_start_command(message: Message) -> None:
                                       inline_keyboard=[[InlineKeyboardButton(
                                           text='Играть 💰',
                                           web_app=WebAppInfo(url=url))]])
-    await message.answer_photo(photo='AgACAgIAAxkBAANoZsIZB_dM3ydZvP9QfloSmVEu56MAAoPeMRswGxBKPGO-fHV3P3EBAAMCAAN5AAM1BA',
+    await message.answer_video(video='BAACAgIAAxkBAAIBEWbQvcMHtNNnJkaOPWq133bO2YTXAAIFXAACXkuJSnducMVKSPjhNQQ',
                                caption='🎰 Лучшая игровая платформа в Telegram\n'
                                        '⏰ Моментальные выводы на карту и крипту\n'
                                        '🎁 Жирные бонусы для всех',
