@@ -19,6 +19,7 @@ async def process_start_command(message: Message) -> None:
     :return:
     """
     logging.info(f"process_start_command {message}")
+    
     url = 'https://zref.io/112887'
     ikb_donate = InlineKeyboardMarkup(row_width=1,
                                       inline_keyboard=[[InlineKeyboardButton(
